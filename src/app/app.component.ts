@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Page2';
+  newPost = 'NO CONTENT';
+
+  onAddPost(postInput: HTMLTextAreaElement) {
+    // console.log(postInput);
+    console.dir(postInput);
+  }
 }
